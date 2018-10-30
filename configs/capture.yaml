@@ -13,7 +13,7 @@
 ##############################################################
 
 # (required) The engine to run Wraith with. Examples: 'phantomjs', 'casperjs', 'slimerjs'
-browser: "casperjs"
+browser: "phantomjs"
 
 # (required) The domains to take screenshots of.
 domains:
