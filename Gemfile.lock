@@ -1,32 +1,6 @@
-GEM
-  remote: https://rubygems.org/
+PATH
+  remote: .
   specs:
-    anemone (0.7.2)
-      nokogiri (>= 1.3.0)
-      robotex (>= 1.0.0)
-    archive-zip (0.11.0)
-      io-like (~> 0.3.0)
-    childprocess (0.9.0)
-      ffi (~> 1.0, >= 1.0.11)
-    chromedriver-helper (1.2.0)
-      archive-zip (~> 0.10)
-      nokogiri (~> 1.8)
-    ffi (1.9.25)
-    image_size (2.0.0)
-    io-like (0.3.0)
-    log4r (1.1.10)
-    mini_magick (4.9.2)
-    mini_portile2 (2.3.0)
-    nokogiri (1.8.5)
-      mini_portile2 (~> 2.3.0)
-    parallel (1.12.1)
-    rake (12.3.1)
-    robotex (1.0.0)
-    rubyzip (1.2.2)
-    selenium-webdriver (3.14.1)
-      childprocess (~> 0.5)
-      rubyzip (~> 1.2, >= 1.2.2)
-    thor (0.20.0)
     wraith (4.2.3)
       anemone
       chromedriver-helper (~> 1.1)
@@ -39,14 +13,58 @@ GEM
       selenium-webdriver (~> 3.5)
       thor
 
+GEM
+  remote: https://rubygems.org/
+  specs:
+    anemone (0.7.2)
+      nokogiri (>= 1.3.0)
+      robotex (>= 1.0.0)
+    archive-zip (0.7.0)
+      io-like (~> 0.3.0)
+    casperjs (1.0.0)
+    childprocess (0.8.0)
+      ffi (~> 1.0, >= 1.0.11)
+    chromedriver-helper (1.1.0)
+      archive-zip (~> 0.7.0)
+      nokogiri (~> 1.6)
+    diff-lcs (1.3)
+    ffi (1.9.18)
+    image_size (1.5.0)
+    io-like (0.3.0)
+    log4r (1.1.10)
+    mini_magick (4.8.0)
+    mini_portile2 (2.3.0)
+    nokogiri (1.8.2)
+      mini_portile2 (~> 2.3.0)
+    parallel (1.12.1)
+    rake (12.3.0)
+    robotex (1.0.0)
+    rspec (3.7.0)
+      rspec-core (~> 3.7.0)
+      rspec-expectations (~> 3.7.0)
+      rspec-mocks (~> 3.7.0)
+    rspec-core (3.7.1)
+      rspec-support (~> 3.7.0)
+    rspec-expectations (3.7.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.7.0)
+    rspec-mocks (3.7.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.7.0)
+    rspec-support (3.7.1)
+    rubyzip (1.2.1)
+    selenium-webdriver (3.8.0)
+      childprocess (~> 0.5)
+      rubyzip (~> 1.0)
+    thor (0.20.0)
+
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  wraith
-
-RUBY VERSION
-   ruby 2.4.4p296
+  casperjs
+  rspec
+  wraith!
 
 BUNDLED WITH
-   1.16.1
+   1.16.0

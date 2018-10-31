@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
-ruby '2.4.4'
+source "https://rubygems.org"
 
-gem 'wraith'
+# Specify your gem's dependencies in wraith.gemspec
+gemspec
