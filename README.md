@@ -22,4 +22,8 @@ $ `npm install`
 ## Running the tests
 
 $ `PATH=$(npm bin):$PATH`  
-$ `bundle exec wraith capture configs/capture.yaml`  
+
+$ `wraith capture spec/configs/test_config--phantom.yaml`
+or
+$ `wraith capture spec/configs/test_config--chrome.yaml'
+`
